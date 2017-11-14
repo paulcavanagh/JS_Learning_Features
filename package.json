@@ -1,0 +1,26 @@
+{
+  "name": "js_learning_features",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../src/my_currying.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulcavanagh/JS_Learning_Features.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai-string": "^1.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/paulcavanagh/JS_Learning_Features/issues"
+  },
+  "homepage": "https://github.com/paulcavanagh/JS_Learning_Features#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
