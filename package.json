@@ -13,7 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chai-string": "^1.2.0"
+    "chai-string": "^1.2.0",
+    "chalk": "^2.3.0"
   },
   "bugs": {
     "url": "https://github.com/paulcavanagh/JS_Learning_Features/issues"

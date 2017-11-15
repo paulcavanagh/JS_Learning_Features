@@ -1,8 +1,9 @@
 'use strict'
 
-const myCurrying = require('../src/my_currying');
+const myCurrying = require('../src/myCurrying');
+const chalk = require('chalk');
 
-describe ('I have a learning module for currying', function(){
+describe (chalk.blue('I have a learning module for currying'), function(){
     it('a simple test for returning a string', function (){
         expect(myCurrying.simpleMethod()).to.be.equal('paul');
     });
