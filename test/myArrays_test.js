@@ -42,8 +42,17 @@ describe(chalk.blue('I have a learning module to help my understanding of arrays
 
 describe(chalk.blue('I have a learning module to help my understanding of arrays and the map functionality in JS'), () => {
   describe(chalk.magenta('Filter functionality'), () =>{
-    it('a simple test', function (){
-      expect(true).to.be.equal(true);
+    it('given a list of numbers, return an array with number greater/equal to 5', function (){
+      const myArray = [1,5,3,2,6,2,7,8];
+      expect(myArrays.greaterThan(myArray, 5)).to.deep.equal([5,6,7,8]);
+    });
+    it('given a list of numbers, return an array with number greater than a specified value', function (){
+      const myArray = [1,5,3,2,6,2,7,8,4];
+      expect(myArrays.greaterThan(myArray, 3)).to.deep.equal([5,3,6,7,8,4]);
+    });
+    it('given a list of string, return an array of strings whose lengths is greater than 3', ()=>{
+      const strArr = ['Paul', 'DOD', 'BAT', 'ANETTE', 'SUGAR'];
+      expect(strArr.filter(myArrays.longerThanThree)).to.deep.equal(['Paul', 'ANETTE', 'SUGAR']);
     });
   });
 });

@@ -39,6 +39,20 @@ function multiplyWithFunctionInsideMap(array){
   }); 
 };
 
+function greaterThan(array, value){
+  const newArr = [];
+  array.forEach(element => {
+    if (element >= value){
+      newArr.push(element);
+    }
+  });
+  return newArr;
+};
+
+function longerThanThree(str){
+  return str.length > 3;
+};
+
 module.exports = {
   'multiply': multiply,
   'multiplyWithCallBackFunction' : multiplyWithCallBackFunction,
@@ -46,5 +60,8 @@ module.exports = {
   'convertToUpperCase' :convertToUpperCase,
   'updatedMultiplyByMap' :updatedMultiplyByMap,
   'multiplyByIndex' : multiplyByIndex,
-  'multiplyWithFunctionInsideMap' : multiplyWithFunctionInsideMap
+  'multiplyWithFunctionInsideMap' : multiplyWithFunctionInsideMap,
+  'greaterThan' : greaterThan,
+  'longerThanThree' :longerThanThree
+  
 }
