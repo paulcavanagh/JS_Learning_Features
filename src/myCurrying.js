@@ -57,11 +57,11 @@ function curryIt(uncurried){
 
 
 module.exports = {
-    'simpleMethod': simpleMethod,
-    'greet' : greet,
-    'greetDeeplyCurried' : greetDeeplyCurried,
-    'greetDeeplyCurriedFatArrow': greetDeeplyCurriedFatArrow,
-    'greetCurried' : greetCurried,
-    'greeting' : greeting,
-    'curryIt' : curryIt
+    simpleMethod,
+    greet,
+    greetDeeplyCurried,
+    greetDeeplyCurriedFatArrow,
+    greetCurried,
+    greeting,
+    curryIt
 };
