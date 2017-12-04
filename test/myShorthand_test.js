@@ -7,7 +7,7 @@
 
 const chalk = require('chalk');
 
-describe.only(chalk.blue('12 Good JavaScript Shorthand Techniques'), () =>{
+describe(chalk.blue('12 Good JavaScript Shorthand Techniques'), () =>{
   describe(chalk.magenta('Null, Undefined, Empty Checks Shorthand'), () => {
     it('null value example', ()=>{
      const var1 = null;
