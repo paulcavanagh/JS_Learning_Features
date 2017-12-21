@@ -17,7 +17,7 @@ const chalk = require('chalk');
 
 describe(chalk.blue('FizzBuzz Problems'), () =>{
   it.only('solve the FixxBuzz problem statement as stated in the header', () =>{
-    //expect(myFizzBzz.fizzBuzz()).to.be.equal('hello');
-    expect(myFizzBzz.fizzBuzzB()).to.be.equal('paul');
+    expect(myFizzBzz.fizzBuzz()).to.be.equal('hello');
+    expect(myFizzBzz.fizzBuzzShortVersion()).to.be.equal('paul');
   })
 });

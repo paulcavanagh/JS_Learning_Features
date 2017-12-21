@@ -10,12 +10,12 @@ function fizzBuzz (){
   return 'hello';
 };
 
-function fizzBuzzB(){
+function fizzBuzzShortVersion(){
   for(let i=0;i<100;)console.log((++i%3?'':'fizz')+(i%5?'':'buzz')||i)
   return 'paul';
 }
 
 module.exports = {
   fizzBuzz,
-  fizzBuzzB
+  fizzBuzzShortVersion
 };
