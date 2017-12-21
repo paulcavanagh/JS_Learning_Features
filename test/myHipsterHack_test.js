@@ -7,7 +7,7 @@ https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace
 
 const chalk = require('chalk');
 
-describe.only(chalk.blue('I have a learning module for Hipster Hacking'), function () {
+describe(chalk.blue('I have a learning module for Hipster Hacking'), function () {
   it('Array Destructuring to swap values', function () {
     let a = 'pablo', b = 'hello';
     [a, b] = [b, a];
@@ -16,7 +16,7 @@ describe.only(chalk.blue('I have a learning module for Hipster Hacking'), functi
     expect(b).to.be.equal('pablo');
   });
 
-  xit('Debugging Hack', function (){
+  it('Debugging Hack', function (){
   
     const a = 5, b = 6, c = 7
     console.log({ a, b, c })
